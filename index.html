@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <video class="bg-video" autoplay muted loop>
+        <source src="background_video.mp4" type="video/mp4">
+    </video>
+    <div class="title-slogan">
+        <h1>MoneyMorph</h1>
+        <h3>Watch Your Currency Transform</h3>
+    </div>
+    <div class="container">
+        <img src="logo.jpg" alt="" class="logo">
+        <h3 class="title">CURRENCY CONVERTER</h3>
+        <div class="amount">
+            <h3>Enter Amount</h3>
+            <input type="number" class="input-box" placeholder="Please Enter in Digits">
+        </div>
+        <div class="from-to">
+            <div class="from">
+                <label for="fromcurrency">From</label>
+                <select id="fromcurrency">
+                    <option value="USD">USD</option>
+                    <option value="EUR">EUR</option>
+                    <option value="INR">INR</option>
+                    <option value="GBP">GBP</option>
+                    <option value="JPY">JPY</option>
+                    <option value="CNY">CNY</option>
+                    <option value="AUD">AUD</option>
+                    <option value="CHF">CHF</option>
+                    <option value="CAD">CAD</option>
+                    <option value="SGD">SGD</option>
+                    <option value="KRW">KRW</option>
+                    <option value="ZAR">ZAR</option>
+                    <option value="BRL">BRL</option>
+                    <option value="MXN">MXN</option>
+                    <option value="RUB">RUB</option>
+                    <option value="SEK">SEK</option>
+                    <option value="NZD">NZD</option>
+                    <option value="THB">THB</option>
+                    <option value="AED">AED</option>
+                    <option value="HKD">HKD</option>
+                </select>
+            </div>
+            <div class="arrow">
+                <i class="fa-solid fa-arrow-right-arrow-left" ></i>
+            </div>
+            <div class="to">
+                <label for="tocurrency">To</label>
+                <select name="to-currency" id="currency">
+                    <option value="USD">USD</option>
+                    <option value="EUR">EUR</option>
+                    <option value="INR">INR</option>
+                    <option value="GBP">GBP</option>
+                    <option value="JPY">JPY</option>
+                    <option value="CNY">CNY</option>
+                    <option value="AUD">AUD</option>
+                    <option value="CHF">CHF</option>
+                    <option value="CAD">CAD</option>
+                    <option value="SGD">SGD</option>
+                    <option value="KRW">KRW</option>
+                    <option value="ZAR">ZAR</option>
+                    <option value="BRL">BRL</option>
+                    <option value="MXN">MXN</option>
+                    <option value="RUB">RUB</option>
+                    <option value="SEK">SEK</option>
+                    <option value="NZD">NZD</option>
+                    <option value="THB">THB</option>
+                    <option value="AED">AED</option>
+                    <option value="HKD">HKDr</option>
+                </select>
+            </div>
+        </div>
+        <button class="switch">Exchhange Rate</button>
+        <div>
+            <input type="value" class="result" readonly>
+        </div>
+    </div>
+</body>
+</html>
